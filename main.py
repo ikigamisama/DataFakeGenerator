@@ -8,6 +8,18 @@ schema = [
         "group": "travel",
         "key_label": "airport_code",
         "options": {"blank_percentage": 0.1}
+    },
+    {
+        "label": "",
+        "group": "travel",
+        "key_label": "airport_municipality",
+        "options": {"blank_percentage": 0.1}
+    },
+    {
+        "label": "",
+        "group": "travel",
+        "key_label": "airport_region_code",
+        "options": {"blank_percentage": 0.1}
     }
 ]
 

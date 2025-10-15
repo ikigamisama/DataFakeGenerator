@@ -11,7 +11,7 @@ class ProviderFactory:
         File path: providers/{group}/{label}_provider.py
         Class name: {LabelCapitalized}Provider
         """
-        module_path = f"providers.{group}.{label.lower()}_provider"
+        module_path = f"providers.{group}.{label.lower()}"
         class_name = "".join(word.capitalize()
                              for word in label.split("_")) + "Provider"
         cache_key = (group, label)
