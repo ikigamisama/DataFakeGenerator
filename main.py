@@ -4,21 +4,21 @@ from core.exporters import Exporter
 
 schema = [
     {
-        "label": "Airport Code",
-        "group": "travel",
-        "key_label": "airport_code",
+        "label": "App Bundle ID",
+        "group": "it",
+        "key_label": "app_bundle_id",
         "options": {"blank_percentage": 0.1}
     },
     {
-        "label": "",
-        "group": "travel",
-        "key_label": "airport_municipality",
+        "label": "App Name",
+        "group": "it",
+        "key_label": "app_name",
         "options": {"blank_percentage": 0.1}
     },
     {
-        "label": "",
-        "group": "travel",
-        "key_label": "airport_region_code",
+        "label": "App Version",
+        "group": "it",
+        "key_label": "app_version",
         "options": {"blank_percentage": 0.1}
     }
 ]
