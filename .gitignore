@@ -2,3 +2,4 @@ basis/
 output/
 index.ipynb
 features.txt
+**/__pycache__/
