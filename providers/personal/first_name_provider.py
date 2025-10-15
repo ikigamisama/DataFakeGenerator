@@ -1,4 +1,3 @@
-# providers/personal/first_name_provider.py
 import random
 from providers.base_provider import BaseProvider
 

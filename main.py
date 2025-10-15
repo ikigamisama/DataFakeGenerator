@@ -4,9 +4,9 @@ from core.exporters import Exporter
 
 schema = [
     {
-        "label": "Address Line 2",
-        "group": "basic",
-        "key_label": "address_line_2",
+        "label": "Airport Code",
+        "group": "travel",
+        "key_label": "airport_code",
         "options": {"blank_percentage": 0.1}
     }
 ]

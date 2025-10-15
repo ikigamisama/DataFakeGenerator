@@ -30,46 +30,59 @@ class UrlProvider(BaseProvider):
         self.protocols = ["http", "https"]
         self.hosts = [
             "google.com", "facebook.com", "twitter.com", "github.com",
-            "example.org", "mywebsite.net", "openai.com"
+            "example.org", "mywebsite.net", "openai.com", "amazon.com",
+            "linkedin.com", "youtube.com", "wikipedia.org", "reddit.com",
+            "apple.com", "microsoft.com", "medium.com", "notion.so",
+            "zoom.us", "shopify.com", "pinterest.com", "cnn.com",
+            "nytimes.com", "bbc.com", "bloomberg.com", "tiktok.com",
+            "airbnb.com", "netflix.com", "spotify.com", "dropbox.com",
+            "salesforce.com", "wordpress.com", "blogspot.com"
         ]
         self.paths = [
-            "/", "/home", "/profile", "/search", "/login",
-            "/products", "/blog", "/docs", "/foo/bar", "/api/v1/resource"
+            "/", "/home", "/profile", "/search", "/login", "/register",
+            "/products", "/products/new", "/products/sale", "/shop",
+            "/cart", "/checkout", "/orders", "/orders/history",
+            "/blog", "/blog/latest", "/blog/tech", "/blog/news",
+            "/docs", "/docs/api", "/docs/getting-started",
+            "/contact", "/about", "/privacy-policy", "/terms",
+            "/dashboard", "/settings", "/settings/profile",
+            "/settings/security", "/api/v1/resource", "/api/v1/items",
+            "/api/v2/users", "/api/v2/data", "/api/v2/search",
+            "/foo/bar", "/v1/login", "/v1/logout", "/uploads/files"
         ]
         self.query_params = [
             {"foo": "bar"},
-            {"id": "123"},
+            {"id": str(random.randint(1, 1000))},
             {"q": "test"},
+            {"q": "laptop"},
+            {"q": "python"},
             {"lang": "en"},
-            {"page": "1"},
-            {"ref": "newsletter"}
+            {"lang": "es"},
+            {"page": str(random.randint(1, 50))},
+            {"ref": "newsletter"},
+            {"utm_source": "google"},
+            {"utm_campaign": "spring_sale"},
+            {"sort": "price_asc"},
+            {"sort": "popularity"},
+            {"filter": "in_stock"},
+            {"category": "electronics"},
+            {"category": "fashion"},
+            {"tag": "ai"},
+            {"session": str(random.randint(100000, 999999))},
         ]
 
     def generate_non_blank(self):
-        parts = []
 
-        # Protocol
-        if self.protocol_enabled:
-            protocol = random.choice(self.protocols)
-        else:
-            protocol = None
-
-        # Host
-        if self.host_enabled:
-            host = random.choice(self.hosts)
-        else:
-            host = None
-
-        # Path
+        protocol = random.choice(
+            self.protocols) if self.protocol_enabled else None
+        host = random.choice(self.hosts) if self.host_enabled else None
         path = random.choice(self.paths) if self.path_enabled else ""
 
-        # Query
         query = ""
-        if self.query_enabled and random.random() < 0.5:  # optional
+        if self.query_enabled and random.random() < 0.5:
             params = random.choice(self.query_params)
             query = "?" + urlencode(params)
 
-        # Construct URL
         if protocol and host:
             base = f"{protocol}://{host}"
         elif host:

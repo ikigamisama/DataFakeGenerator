@@ -1,12 +1,11 @@
 label,group,examples,description,key_label
 Address Line 2,Basic,,"Room, Apt, Floor, Suite, or PO box number",address_line_2
-Airport Code,Travel,LAX<br/>NWR<br/>JFK,,airport_code
+Airport Code,Travel,LAX<br/>NWR<br/>JFK,,airport_code,
+Airport Coordinate,Travel,"4.305599212646484, -112.16500091552734",,airport_coordinate
 Airport Continent,Travel,NA<br/>AF<br/>EU,,airport_continent
 Airport Country Code,Travel,US<br/>CA<br/>DE,,airport_country_code
 Airport Elevation (Feet),Travel,11<br/>200<br/>123,,airport_elevation_feet
 Airport GPS Code,Travel,WAOP<br/>YGDN<br/>ZGXN,,airport_gps_code
-Airport Latitude,Travel,,The latitude of the airport,airport_latitude
-Airport Longitude,Travel,,The longitude of the airport,airport_longitude
 Airport Municipality,Travel,Wenzhou<br/>Singleton<br/>Melbourne,,airport_municipality
 Airport Name,Travel,Kodiak Airport<br/>Van Nuys Airport<br/>Halifax County Airport,,airport_name
 Airport Region Code,Travel,US-PA<br/>AU-QLD<br/>MY-13,,airport_region_code
