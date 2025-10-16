@@ -1,205 +1,205 @@
-label,group,examples,description,key_label
-Address Line 2,Basic,,"Room, Apt, Floor, Suite, or PO box number",address_line_2
-Airport Code,Travel,LAX<br/>NWR<br/>JFK,,airport_code,
-Airport Coordinate,Travel,"4.305599212646484, -112.16500091552734",,airport_coordinate
-Airport Continent,Travel,NA<br/>AF<br/>EU,,airport_continent
-Airport Country Code,Travel,US<br/>CA<br/>DE,,airport_country_code
-Airport Elevation (Feet),Travel,11<br/>200<br/>123,,airport_elevation_feet
-Airport GPS Code,Travel,WAOP<br/>YGDN<br/>ZGXN,,airport_gps_code
-Airport Municipality,Travel,Wenzhou<br/>Singleton<br/>Melbourne,,airport_municipality
-Airport Name,Travel,Kodiak Airport<br/>Van Nuys Airport<br/>Halifax County Airport,,airport_name
-Airport Region Code,Travel,US-PA<br/>AU-QLD<br/>MY-13,,airport_region_code
-Animal Common Name,Nature,"Wombat, common<br/>Owl, snowy<br/>Jungle kangaroo",,animal_common_name
-Animal Scientific Name,Nature,Vombatus ursinus<br/>Nyctea scandiaca<br/>Macropus agilis,,animal_scientific_name
-App Bundle ID,IT,com.google.powerflex<br/>com.microsoft.prodder,Three part app bundle id:,app_bundle_id
-App Name,IT,,Fake app names,app_name
-App Version,IT,,Random 2 and 3 part app version numbers,app_version
-Bank City,Finance,SAN FRANCISCO<br/>PHILADELPHIA<br/>CHICAGO,,bank_city
-Bank Country Code,Finance,US<br/>CA<br/>UK,,bank_country_code
-Bank LEI,Finance,,The Legal Entity Identifier of a European bank,bank_lei
-Bank Name,Finance,BANK OF AMERICA<br/>WELLS FARGO<br/>JPMORGAN CHASE,,bank_name
-Bank RIAD Code,Finance,,The RIAD Code of a European bank,bank_riad_code
-Bank Routing Number,Finance,011000138<br/>011100106,The routing number of a US-based bank,bank_routing_number
-Bank State,Finance,,"For US-based banks, the state code",bank_state
-Bank Street Address,Finance,195 MARKET STREET<br/>601 PENN STREET<br/>8001 VILLA PARK DRIVE,,bank_street_address
-Bank SWIFT BIC,Finance,BOFAUS3N<br/>NFBKUS33,The SWIFT code of a bank,bank_swift_bic
-Base64 Image URL,IT,"data:image/png;base64,iVBORwoA...",Base64 encoded image urls like:,base64_image_url
-Binomial Distribution,Basic,,Generates numbers based on a binomial distribution with a specific probability of success.,binomial_distribution
-Bitcoin Address,Crypto,"<span style=""font-size:10px"">1EZ5PdVcsVEaaKYH37t8toLodJc97eooy6<br/>1HpzKTCbcJ57vkoQZCfhJyvZK97MRzktVk<br/>1BPny1b66pdZuZC87tJikS8EG5CHRYp4ni</span>",,bitcoin_address
-Blank,Basic,,Always generates a null value,blank
-Boolean,Basic,true<br/>false,,boolean
-Buzzword,Personal,contextually-based<br/>radical<br/>proactive,,buzzword
-Car Make,Car,Honda<br/>Ford<br/>Pontiac,,car_make
-Car Model,Car,Prelude<br/>Mustang<br/>Trans Am,,car_model
-Car Model Year,Car,1994<br/>2008<br/>2001,,car_model_year
-Car VIN,Car,,"A random car VIN number, not correlated to other car fields.",car_vin
-Catch Phrase,Personal,,Multiple buzzwords strung together,catch_phrase
-Character Sequence,Advanced,,"Create simple sequences of characters, digits, and symbols",character_sequence
-City,Location,New York<br/>Berlin<br/>London,,city
-Color,Basic,Red<br/>Blue<br/>Black,,color
-Company Name,Personal,Google<br/>Home Depot<br/>General Electric,,company_name
-Construction Heavy Equipment,Construction,Compactor<br/>Grader<br/>Trencher,,construction_heavy_equipment
-Construction Material,Construction,Glass<br/>Plastic<br/>Aluminum,,construction_material
-Construction Role,Construction,Construction Manager<br/>Supervisor<br/>Supervisor,,construction_role
-Construction Standard Cost Code,Construction,11-200 - Water Supply and Treatment Equipment<br/>1-518 - Temporary Water<br/>1-542 - Construction Scaffolding and Platforms,,construction_standard_cost_code
-Construction Subcontract Category,Construction,Masonry<br/>Roofing (Asphalt)<br/>EIFS,,construction_subcontract_category
-Construction Trade,Construction,Stucco Mason<br/>Welder<br/>Ironworker,,construction_trade
-Country,Location,Germany<br/>France<br/>Japan,,country
-Country Code,Location,ES<br/>GR<br/>FR,,country_code
-Credit Card #,Commerce,4017959045824<br/>5349690971837932<br/>372301294706546,,credit_card_#
-Credit Card Type,Commerce,visa<br/>mastercard<br/>americanexpress,,credit_card_type
-Currency,Commerce,Dollar<br/>Euro<br/>Peso,,currency
-Currency Code,Commerce,USD<br/>EUR<br/>MXN,,currency_code
-Custom List,Basic,,Picks items randomly or sequentially from a custom list of values,custom_list
-Datetime,Basic,07/04/2013<br/>4.7.2013<br/>04-Jul-2013,,datetime
-Department (Corporate),Personal,Human Resources<br/>Accounting<br/>Engineering,,department_corporate
-Department (Retail),Commerce,Grocery<br/>Books<br/>Health & Beauty,,department_retail
-Digit Sequence,Advanced,,"Create simple sequences of characters, digits, and symbols",digit_sequence
-Domain Name,IT,google.com<br/>wikipedia.org<br/>nih.gov,,domain_name
-Drug Company,Health,"<span style=""font-size:10px"">Eli Lilly and Company<br/>Novartis Pharmaceuticals Corporation<br/>Teva Pharmaceuticals USA Inc</span>",,drug_company
-Drug Name (Brand),Health,Cialis<br/>Nexium<br/>Lipitor,,drug_name_brand
-Drug Name (Generic),Health,Naproxen Sodium<br/>Selenium Sulfide<br/>Acetaminophen,,drug_name_generic
-Dummy Image URL,IT,http://dummyimage.com/250x100,Image url from dummyimage.com,dummy_image_url
-DUNS Number,Personal,,Randomly generated DUNS numbers,duns_number
-EIN,Personal,,Randomly generated employer identification numbers,ein
-Email Address,IT,jdoe@gmail.com<br/>twilliams@hotmail.com<br/>ajones@yahoo.com,,email_address
-Encrypt,Basic,,Simulates encrypted text,encrypt
-Ethereum Address,Crypto,,A random Ethereum address,ethereum_address
-Exponential Distribution,Basic,,Generates numbers based on an exponential distribution with a specific λ rate.,exponential_distribution
-Fake Company Name,Personal,Morar Group<br/>Stark-Glover<br/>Sawayn and Sons,,fake_company_name
-Family Name (Chinese),Personal,赵<br/>钱<br/>孙,,family_name_chinese
-FDA NDC Code,Health,58443-0022<br/>58517-001<br/>44924-011,,fda_ndc_code
-File Name,IT,lobortis.pptx<br/>erat_volutpat.csv<br/>TortorSollicitudin.docx,,file_name
-First Name,Personal,Jim<br/>Mark<br/>Sasha,,first_name
-First Name (European),Personal,Görel<br/>Marie-josée<br/>Hélène,,first_name_european
-First Name (Female),Personal,Susan<br/>Jessica<br/>Sasha,,first_name_female
-First Name (Male),Personal,Mark<br/>Bob<br/>Tim,,first_name_male
-Flight Airline Code,Travel,AA<br/>DL<br/>UA,,flight_airline_code
-Flight Airline Name,Travel,American Airlines<br/>Delta Air Lines<br/>United Airlines,,flight_airline_name
-Flight Arrival Airport,Travel,Chicago O'Hare International Airport<br/>San Francisco International Airport,,flight_arrival_airport
-Flight Arrival Airport Code,Travel,SFO<br/>DFW<br/>LHR,,flight_arrival_airport_code
-Flight Arrival City,Travel,Chicago<br/>San Francisco<br/>Dallas,,flight_arrival_city
-Flight Arrival Country,Travel,United States<br/>France<br/>Japan,,flight_arrival_country
-Flight Departure Airport,Travel,John F. Kennedy International Airport<br/>Los Angeles International Airport,,flight_departure_airport
-Flight Departure Airport Code,Travel,JFK<br/>LAX<br/>ORD,,flight_departure_airport_code
-Flight Departure City,Travel,New York<br/>Los Angeles<br/>Chicago,,flight_departure_city
-Flight Departure Country,Travel,United States<br/>Canada<br/>United Kingdom,,flight_departure_country
-Flight Departure Time,Travel,08:45 AM<br/>14:30 PM<br/>23:15 PM,,flight_departure_time
-Flight Duration (Hours),Travel,2.5<br/>5.75<br/>12.0,,flight_duration_hours
-Flight Number,Travel,AA1234<br/>DL456<br/>UA789,,flight_number
-Frequency,Basic,"Never, Once, Seldom, Often, Daily, Weekly, Monthly, Yearly",,frequency
-Full Name,Personal,Nancy Smith<br/>Tim Fisher<br/>Al Jones,,full_name
-Gender,Personal,Female<br/>Male<br/>Non-binary,,gender
-Gender (abbrev),Personal,M<br/>F,,gender_abbrev
-Gender (Binary),Personal,Female<br/>Male,,gender_binary
-Gender (Facebook),Personal,,The Facebook gender list as of 2021,gender_facebook
-Geometric Distribution,Basic,,Generates numbers based on a geometric distribution with a specific probability of success.,geometric_distribution
-Given Name (Chinese),Personal,崇杉<br/>永鑫<br/>鑫蕾,,given_name_chinese
-GUID,Basic,ddee19bc-84fd-4627-897c-dec7c8010977,36 character hex guid,guid
-HCPCS Code,Health,,An HCPCS code,hcpcs_code
-HCPCS Name,Health,,An HCPCS procedure name,hcpcs_name
-Hex Color,Basic,#142a0b<br/>#F0F0F0<br/>#0066FF,,hex_color
-Hospital City,Health,,The city of a US-based hospital,hospital_city
-Hospital Name,Health,,The name of a US-based hospital,hospital_name
-Hospital NPI,Health,,The NPI of a US-based hospital,hospital_npi
-Hospital Postal Code,Health,,The postal code of a US-based hospital,hospital_postal_code
-Hospital State,Health,,The state of a US-based hospital,hospital_state
-Hospital Street Address,Health,,The street address of a US-based hospital,hospital_street_address
-IBAN,Commerce,"<span style=""font-size:10px"">FR73 5960 2948 07N1 L9TC PVYX E17<br/>SE85 4302 3680 7231 4238 1624</br>HU12 2842 8140 5998 8717 3520 7242</span>",,iban
-ICD10 Diagnosis Code,Health,,ICD10 diagnosis code. Source: cms.gov,icd10_diagnosis_code
-ICD10 Dx Desc (Long),Health,,Long description of diagnosis from ICD10. Source: cms.gov,icd10_dx_desc_long
-ICD10 Dx Desc (Short),Health,,Short description of diagnosis from ICD10. Source: cms.gov,icd10_dx_desc_short
-ICD10 Proc Desc (Long),Health,,Long description of procedure from ICD10. Source: cms.gov,icd10_proc_desc_long
-ICD10 Proc Desc (Short),Health,,Short description of procedure from ICD10. Source: cms.gov,icd10_proc_desc_short
-ICD10 Procedure Code,Health,,ICD10 procedure code. Source: cms.gov,icd10_procedure_code
-ICD9 Diagnosis Code,Health,,ICD9 diagnosis code. Source: cms.gov,icd9_diagnosis_code
-ICD9 Dx Desc (Long),Health,,Long description of diagnosis from ICD9. Source: cms.gov,icd9_dx_desc_long
-ICD9 Dx Desc (Short),Health,,Short description of diagnosis from ICD9. Source: cms.gov,icd9_dx_desc_short
-ICD9 Proc Desc (Long),Health,,Long description of procedure from ICD9. Source: cms.gov,icd9_proc_desc_long
-ICD9 Proc Desc (Short),Health,,Short description of procedure from ICD9. Source: cms.gov,icd9_proc_desc_short
-ICD9 Procedure Code,Health,,ICD9 procedure code. Source: cms.gov,icd9_procedure_code
-IP Address v4,IT,121.150.202.132,,ip_address_v4
-IP Address v4 CIDR,IT,188.245.97.43/27,,ip_address_v4_cidr
-IP Address v6,IT,770:44c0:1c4:9996:2fd:6907:3045:9627,,ip_address_v6
-IP Address v6 CIDR,IT,"<span style=""font-size:9.5px"">9ea4:2b0b:11ba:47a3:47a8:ede4:2ddd:c5f8/115</span>",,ip_address_v6_cidr
-ISBN,Basic,574398570-7<br/>938492119-X<br/>758622794-2,,isbn
-Job Title,Personal,Design Engineer<br/>General Manager<br/>Help Desk Technician,,job_title
-JSON Array,Advanced,,Generates an array of objects in json format.,json_array
-Language,Personal,German<br/>English<br/>Spanish,,language
-Language Code,Personal,de<br/>en<br/>es,,language_code
-Last Name,Personal,Smith<br/>Jones<br/>Miller,,last_name
-Latitude,Location,48.52469361225269<br/>72.26886762838888<br/>-12.592370752117404,,latitude
-LinkedIn Skill,Personal,Algorithms<br/>Sports Nutrition<br/>Payroll,,linkedin_skill
-Longitude,Location,-45.15259533671917<br/>115.70563293321999<br/>81.9426325226724,,longitude
-MAC Address,IT,2C-D6-9B-77-E5-0B<br/>2C:D6:9B:77:E5:0B<br/>2c:d6:9b:77:e5:0b,,mac_address
-MD5,IT,,Random hex encoded MD5 hash,md5
-Medicare Beneficiary ID,Health,,MBI used in the US Medicare System,medicare_beneficiary_id
-MIME Type,IT,text/plain<br/>image/png<br/>application/pdf,,mime_type
-Mobile Device Brand,Products,Sony<br/>Samsung<br/>Apple,,mobile_device_brand
-Mobile Device Model,Products,Xperia Z3<br/>Galaxy S5<br/>iPhone 6,,mobile_device_model
-Mobile Device OS,Products,Android<br/>iOS,,mobile_device_os
-Mobile Device Release Date,Products,2014<br/>2015<br/>2016,,mobile_device_release_date
-Money,Commerce,"$3.00<br/>£12.94<br/>€127,54",,money
-MongoDB ObjectID,Basic,,Globally unique identifiers for MongoDB objects,mongodb_objectid
-Movie Genres,Products,Action | Suspense<br/>Thriller<br/>Comedy,,movie_genres
-Movie Title,Products,Goodfellas<br/>Titanic<br/>Silverado,,movie_title
-Nato Phonetic,Basic,Whiskey<br/>Alpha<br/>Bravo,,nato_phonetic
-Naughty String,Advanced,,Strings which have a high probability of causing issues when used as user-input data.,naughty_string
-NHS Number,Health,,10-digit NHS number with mod11 checksum,nhs_number
-Normal Distribution,Basic,,Generates random numbers in a normal distribution using the Box-Muller algorithm,normal_distribution
-Number,Basic,0.25<br/>5.2<br/>1000,,number
-Paragraphs,Basic,,Chosen randomly from lorem ipsum,paragraphs
-Password,Basic,,Generate passwords with customizable requirements,password
-Password Hash,Basic,,The bcrypt hash of a randomly generated password,password_hash
-Phone,Location,8-(598)633-6672,,phone
-Plant Common Name,Nature,Abietinella Moss<br/>Silver Fir<br/>Sedge,,plant_common_name
-Plant Family,Nature,Thuidiaceae<br/>Pinaceae<br/>Cyperaceae,,plant_family
-Plant Scientific Name,Nature,Abietinella abietina<br/>Abies alba<br/>Abildgaardia Vahl,,plant_scientific_name
-Poisson Distribution,Basic,,Generates numbers based on a Poisson distribution with a specific mean value.,poisson_distribution
-Postal Code,Location,,Region-specific postal codes (not available for all locations).,postal_code
-Product Category,Commerce,,Toys<br/>Clothing - Outerwear<br/>Outdoor,product_category
-Product Description,Commerce,,"e.g ""Savory lentil chips with BBQ flavor""",product_description
-Product (Grocery),Products,Tomato - Green<br/>Spinach - Baby<br/>Avocado,,product_grocery
-Product Name,Commerce,Classic Black Trousers<br/>Lemon Dill Salmon<br/>Travel Makeup Organizer,,product_name
-Product Price,Commerce,,The price of a product,product_price
-Product Subcategory,Commerce,,Plant-Based Beverages<br/>Gourmet Snacks<br/>Home Fragrance & Accessories,product_subcategory
-Race,Personal,Filipino<br/>Venezuelan<br/>Asian,,race
-Regular Expression,Advanced,,Generate random data based on a regular expression,regular_expression
-Row Number,Basic,1<br/>2<br/>3,,row_number
-Sentences,Basic,,Chosen randomly from lorem ipsum,sentences
-Sequence,Basic,,Generates a sequence of numbers with adjustable step and repeat options.,sequence
-SHA1,IT,,Random hex encoded SHA1 hash,sha1
-SHA256,IT,,Random hex encoded SHA256 hash,sha256
-Shirt Size,Personal,S<br/>M<br/>L,,shirt_size
-Short Hex Color,Basic,#14b<br/>#a32<br/>#926,,short_hex_color
-Slogan,Personal,,Randomly generated marketing slogans,slogan
-SSN,Personal,678-59-9455<br/>312-20-4597<br/>684-62-5799,,ssn
-State,Location,,"State/Province names, US and worldwide",state
-State (abbrev),Location,,"Two character state/province abbreviations, US and worldwide",state_abbrev
-Stock Industry,Commerce,Semiconductors<br/>Major Banks<br/>Oil & Gas Production,,stock_industry
-Stock Market,Commerce,NYSE<br/>NASDAQ,,stock_market
-Stock Market Cap,Commerce,$33.03B<br/>$54.29M<br/>$41.02M,,stock_market_cap
-Stock Name,Commerce,"Microsoft Corporation<br/>NetApp, Inc.<br/>The Bancorp, Inc.",,stock_name
-Stock Sector,Commerce,Technology<br/>Capital Goods<br/>Finance,,stock_sector
-Stock Symbol,Commerce,MSFT<br/>NTAP<br/>TBBK,,stock_symbol
-Street Address,Location,6449 Pine View Drive,"Street number, name, and suffix",street_address
-Street Name,Location,Pine View,A street name (excluding the suffix),street_name
-Street Number,Location,6449,A street number between 1 and 5 digits,street_number
-Street Suffix,Location,Drive<br/>Terrace<br/>Street,,street_suffix
-Suffix,Personal,Jr<br/>Sr<br/>III,,suffix
-Template,Advanced,,Concatenate values from several columns into one,template
-Tezos Account,Crypto,,A random Tezos account,tezos_account
-Tezos Block,Crypto,,A random Tezos block,tezos_block
-Tezos Contract,Crypto,,A random Tezos contract,tezos_contract
-Tezos Operation,Crypto,,A random Tezos operation,tezos_operation
-Tezos Signature,Crypto,,A random Tezos signature,tezos_signature
-Time,Basic,3:30 PM<br/>15:30,,time
-Time Zone,Location,America/Los_Angeles<br/>Europe/Budapest<br/>Pacific/Fiji,,time_zone
-Title,Personal,Mr<br/>Ms<br/>Dr,,title
-Top Level Domain,IT,com<br/>edu<br/>org,,top_level_domain
-ULID,Basic,,Universally Unique Lexicographically-sortable Identifier,ulid
-University,Personal,The Johns Hopkins University<br/>Pepperdine University<br/>University of Texas,,university
-URL,IT,https://facebook.com<br/>http://google.com/path?foo=bar<br/>/foo/bar,,url
-User Agent,IT,,A user agent string from a popular web browser or bot,user_agent
-Username,IT,jdoe<br/>twilliams<br/>jfang,,username
-Words,Basic,,Chosen randomly from lorem ipsum,words
+label                            , group       , examples                                                                                                                                                , description                                                                                , key_label
+Address Line 2                   , Basic       ,                                                                                                                                                         , "Room, Apt, Floor, Suite, or PO box number"                                                , address_line_2
+Airport Code                     , Travel      , LAX<br/>NWR<br/>JFK                                                                                                                                     ,                                                                                            , airport_code
+Airport Coordinate               , Travel      , "4.305599212646484, -112.16500091552734"                                                                                                                ,                                                                                            , airport_coordinate
+Airport Continent                , Travel      , NA<br/>AF<br/>EU                                                                                                                                        ,                                                                                            , airport_continent
+Airport Country Code             , Travel      , US<br/>CA<br/>DE                                                                                                                                        ,                                                                                            , airport_country_code
+Airport Elevation (Feet)         , Travel      , 11<br/>200<br/>123                                                                                                                                      ,                                                                                            , airport_elevation_feet
+Airport GPS Code                 , Travel      , WAOP<br/>YGDN<br/>ZGXN                                                                                                                                  ,                                                                                            , airport_gps_code
+Airport Municipality             , Travel      , Wenzhou<br/>Singleton<br/>Melbourne                                                                                                                     ,                                                                                            , airport_municipality
+Airport Name                     , Travel      , Kodiak Airport<br/>Van Nuys Airport<br/>Halifax County Airport                                                                                          ,                                                                                            , airport_name
+Airport Region Code              , Travel      , US-PA<br/>AU-QLD<br/>MY-13                                                                                                                              ,                                                                                            , airport_region_code
+Animal Common Name               , Nature      , "Wombat, common<br/>Owl, snowy<br/>Jungle kangaroo"                                                                                                     ,                                                                                            , animal_common_name
+Animal Scientific Name           , Nature      , Vombatus ursinus<br/>Nyctea scandiaca<br/>Macropus agilis                                                                                               ,                                                                                            , animal_scientific_name
+App Bundle ID                    , IT          , com.google.powerflex<br/>com.microsoft.prodder                                                                                                          , Three part app bundle id:                                                                  , app_bundle_id
+App Name                         , IT          ,                                                                                                                                                         , Fake app names                                                                             , app_name
+App Version                      , IT          ,                                                                                                                                                         , Random 2 and 3 part app version numbers                                                    , app_version
+Bank City                        , Finance     , SAN FRANCISCO<br/>PHILADELPHIA<br/>CHICAGO                                                                                                              ,                                                                                            , bank_city
+Bank Country Code                , Finance     , US<br/>CA<br/>UK                                                                                                                                        ,                                                                                            , bank_country_code
+Bank LEI                         , Finance     ,                                                                                                                                                         , The Legal Entity Identifier of a European bank                                             , bank_lei
+Bank Name                        , Finance     , BANK OF AMERICA<br/>WELLS FARGO<br/>JPMORGAN CHASE                                                                                                      ,                                                                                            , bank_name
+Bank RIAD Code                   , Finance     ,                                                                                                                                                         , The RIAD Code of a European bank                                                           , bank_riad_code
+Bank Routing Number              , Finance     , 011000138<br/>011100106                                                                                                                                 , The routing number of a US-based bank                                                      , bank_routing_number
+Bank State                       , Finance     ,                                                                                                                                                         , "For US-based banks, the state code"                                                       , bank_state
+Bank Street Address              , Finance     , 195 MARKET STREET<br/>601 PENN STREET<br/>8001 VILLA PARK DRIVE                                                                                         ,                                                                                            , bank_street_address
+Bank SWIFT BIC                   , Finance     , BOFAUS3N<br/>NFBKUS33                                                                                                                                   , The SWIFT code of a bank                                                                   , bank_swift_bic
+Base64 Image URL                 , IT          , "data:image/png;base64,iVBORwoA..."                                                                                                                     , Base64 encoded image urls like:                                                            , base64_image_url
+Binomial Distribution            , Basic       ,                                                                                                                                                         , Generates numbers based on a binomial distribution with a specific probability of success. , binomial_distribution
+Bitcoin Address                  , Crypto      , "<span style=""font-size:10px"">1EZ5PdVcsVEaaKYH37t8toLodJc97eooy6<br/>1HpzKTCbcJ57vkoQZCfhJyvZK97MRzktVk<br/>1BPny1b66pdZuZC87tJikS8EG5CHRYp4ni</span>",                                                                                            , bitcoin_address
+Blank                            , Basic       ,                                                                                                                                                         , Always generates a null value                                                              , blank
+Boolean                          , Basic       , true<br/>false                                                                                                                                          ,                                                                                            , boolean
+Buzzword                         , Personal    , contextually-based<br/>radical<br/>proactive                                                                                                            ,                                                                                            , buzzword
+Car Make                         , Car         , Honda<br/>Ford<br/>Pontiac                                                                                                                              ,                                                                                            , car_make
+Car Model                        , Car         , Prelude<br/>Mustang<br/>Trans Am                                                                                                                        ,                                                                                            , car_model
+Car Model Year                   , Car         , 1994<br/>2008<br/>2001                                                                                                                                  ,                                                                                            , car_model_year
+Car VIN                          , Car         ,                                                                                                                                                         , "A random car VIN number, not correlated to other car fields."                             , car_vin
+Catch Phrase                     , Personal    ,                                                                                                                                                         , Multiple buzzwords strung together                                                         , catch_phrase
+Character Sequence               , Advanced    ,                                                                                                                                                         , "Create simple sequences of characters, digits, and symbols"                               , character_sequence
+City                             , Location    , New York<br/>Berlin<br/>London                                                                                                                          ,                                                                                            , city
+Color                            , Basic       , Red<br/>Blue<br/>Black                                                                                                                                  ,                                                                                            , color
+Company Name                     , Personal    , Google<br/>Home Depot<br/>General Electric                                                                                                              ,                                                                                            , company_name
+Construction Heavy Equipment     , Construction, Compactor<br/>Grader<br/>Trencher                                                                                                                       ,                                                                                            , construction_heavy_equipment
+Construction Material            , Construction, Glass<br/>Plastic<br/>Aluminum                                                                                                                          ,                                                                                            , construction_material
+Construction Role                , Construction, Construction Manager<br/>Supervisor<br/>Supervisor                                                                                                      ,                                                                                            , construction_role
+Construction Standard Cost Code  , Construction, 11-200 - Water Supply and Treatment Equipment<br/>1-518 - Temporary Water<br/>1-542 - Construction Scaffolding and Platforms                            ,                                                                                            , construction_standard_cost_code
+Construction Subcontract Category, Construction, Masonry<br/>Roofing (Asphalt)<br/>EIFS                                                                                                                  ,                                                                                            , construction_subcontract_category
+Construction Trade               , Construction, Stucco Mason<br/>Welder<br/>Ironworker                                                                                                                  ,                                                                                            , construction_trade
+Country                          , Location    , Germany<br/>France<br/>Japan                                                                                                                            ,                                                                                            , country
+Country Code                     , Location    , ES<br/>GR<br/>FR                                                                                                                                        ,                                                                                            , country_code
+Credit Card #                    , Commerce    , 4017959045824<br/>5349690971837932<br/>372301294706546                                                                                                  ,                                                                                            , credit_card_#
+Credit Card Type                 , Commerce    , visa<br/>mastercard<br/>americanexpress                                                                                                                 ,                                                                                            , credit_card_type
+Currency                         , Commerce    , Dollar<br/>Euro<br/>Peso                                                                                                                                ,                                                                                            , currency
+Currency Code                    , Commerce    , USD<br/>EUR<br/>MXN                                                                                                                                     ,                                                                                            , currency_code
+Custom List                      , Basic       ,                                                                                                                                                         , Picks items randomly or sequentially from a custom list of values                          , custom_list
+Datetime                         , Basic       , 07/04/2013<br/>4.7.2013<br/>04-Jul-2013                                                                                                                 ,                                                                                            , datetime
+Department (Corporate)           , Personal    , Human Resources<br/>Accounting<br/>Engineering                                                                                                          ,                                                                                            , department_corporate
+Department (Retail)              , Commerce    , Grocery<br/>Books<br/>Health & Beauty                                                                                                                   ,                                                                                            , department_retail
+Digit Sequence                   , Advanced    ,                                                                                                                                                         , "Create simple sequences of characters, digits, and symbols"                               , digit_sequence
+Domain Name                      , IT          , google.com<br/>wikipedia.org<br/>nih.gov                                                                                                                ,                                                                                            , domain_name
+Drug Company                     , Health      , "<span style=""font-size:10px"">Eli Lilly and Company<br/>Novartis Pharmaceuticals Corporation<br/>Teva Pharmaceuticals USA Inc</span>"                 ,                                                                                            , drug_company
+Drug Name (Brand)                , Health      , Cialis<br/>Nexium<br/>Lipitor                                                                                                                           ,                                                                                            , drug_name_brand
+Drug Name (Generic)              , Health      , Naproxen Sodium<br/>Selenium Sulfide<br/>Acetaminophen                                                                                                  ,                                                                                            , drug_name_generic
+Dummy Image URL                  , IT          , http://dummyimage.com/250x100                                                                                                                           , Image url from dummyimage.com                                                              , dummy_image_url
+DUNS Number                      , Personal    ,                                                                                                                                                         , Randomly generated DUNS numbers                                                            , duns_number
+EIN                              , Personal    ,                                                                                                                                                         , Randomly generated employer identification numbers                                         , ein
+Email Address                    , IT          , jdoe@gmail.com<br/>twilliams@hotmail.com<br/>ajones@yahoo.com                                                                                           ,                                                                                            , email_address
+Encrypt                          , Basic       ,                                                                                                                                                         , Simulates encrypted text                                                                   , encrypt
+Ethereum Address                 , Crypto      ,                                                                                                                                                         , A random Ethereum address                                                                  , ethereum_address
+Exponential Distribution         , Basic       ,                                                                                                                                                         , Generates numbers based on an exponential distribution with a specific λ rate.             , exponential_distribution
+Fake Company Name                , Personal    , Morar Group<br/>Stark-Glover<br/>Sawayn and Sons                                                                                                        ,                                                                                            , fake_company_name
+Family Name (Chinese)            , Personal    , 赵<br/>钱<br/>孙                                                                                                                                        ,                                                                                            , family_name_chinese
+FDA NDC Code                     , Health      , 58443-0022<br/>58517-001<br/>44924-011                                                                                                                  ,                                                                                            , fda_ndc_code
+File Name                        , IT          , lobortis.pptx<br/>erat_volutpat.csv<br/>TortorSollicitudin.docx                                                                                         ,                                                                                            , file_name
+First Name                       , Personal    , Jim<br/>Mark<br/>Sasha                                                                                                                                  ,                                                                                            , first_name
+First Name (European)            , Personal    , Görel<br/>Marie-josée<br/>Hélène                                                                                                                        ,                                                                                            , first_name_european
+First Name (Female)              , Personal    , Susan<br/>Jessica<br/>Sasha                                                                                                                             ,                                                                                            , first_name_female
+First Name (Male)                , Personal    , Mark<br/>Bob<br/>Tim                                                                                                                                    ,                                                                                            , first_name_male
+Flight Airline Code              , Travel      , AA<br/>DL<br/>UA                                                                                                                                        ,                                                                                            , flight_airline_code
+Flight Airline Name              , Travel      , American Airlines<br/>Delta Air Lines<br/>United Airlines                                                                                               ,                                                                                            , flight_airline_name
+Flight Arrival Airport           , Travel      , Chicago O'Hare International Airport<br/>San Francisco International Airport                                                                            ,                                                                                            , flight_arrival_airport
+Flight Arrival Airport Code      , Travel      , SFO<br/>DFW<br/>LHR                                                                                                                                     ,                                                                                            , flight_arrival_airport_code
+Flight Arrival City              , Travel      , Chicago<br/>San Francisco<br/>Dallas                                                                                                                    ,                                                                                            , flight_arrival_city
+Flight Arrival Country           , Travel      , United States<br/>France<br/>Japan                                                                                                                      ,                                                                                            , flight_arrival_country
+Flight Departure Airport         , Travel      , John F. Kennedy International Airport<br/>Los Angeles International Airport                                                                             ,                                                                                            , flight_departure_airport
+Flight Departure Airport Code    , Travel      , JFK<br/>LAX<br/>ORD                                                                                                                                     ,                                                                                            , flight_departure_airport_code
+Flight Departure City            , Travel      , New York<br/>Los Angeles<br/>Chicago                                                                                                                    ,                                                                                            , flight_departure_city
+Flight Departure Country         , Travel      , United States<br/>Canada<br/>United Kingdom                                                                                                             ,                                                                                            , flight_departure_country
+Flight Departure Time            , Travel      , 08:45 AM<br/>14:30 PM<br/>23:15 PM                                                                                                                      ,                                                                                            , flight_departure_time
+Flight Duration (Hours)          , Travel      , 2.5<br/>5.75<br/>12.0                                                                                                                                   ,                                                                                            , flight_duration_hours
+Flight Number                    , Travel      , AA1234<br/>DL456<br/>UA789                                                                                                                              ,                                                                                            , flight_number
+Frequency                        , Basic       , "Never, Once, Seldom, Often, Daily, Weekly, Monthly, Yearly"                                                                                            ,                                                                                            , frequency
+Full Name                        , Personal    , Nancy Smith<br/>Tim Fisher<br/>Al Jones                                                                                                                 ,                                                                                            , full_name
+Gender                           , Personal    , Female<br/>Male<br/>Non-binary                                                                                                                          ,                                                                                            , gender
+Gender (abbrev)                  , Personal    , M<br/>F                                                                                                                                                 ,                                                                                            , gender_abbrev
+Gender (Binary)                  , Personal    , Female<br/>Male                                                                                                                                         ,                                                                                            , gender_binary
+Gender (Facebook)                , Personal    ,                                                                                                                                                         , The Facebook gender list as of 2021                                                        , gender_facebook
+Geometric Distribution           , Basic       ,                                                                                                                                                         , Generates numbers based on a geometric distribution with a specific probability of success., geometric_distribution
+Given Name (Chinese)             , Personal    , 崇杉<br/>永鑫<br/>鑫蕾                                                                                                                                  ,                                                                                            , given_name_chinese
+GUID                             , Basic       , ddee19bc-84fd-4627-897c-dec7c8010977                                                                                                                    , 36 character hex guid                                                                      , guid
+HCPCS Code                       , Health      ,                                                                                                                                                         , An HCPCS code                                                                              , hcpcs_code
+HCPCS Name                       , Health      ,                                                                                                                                                         , An HCPCS procedure name                                                                    , hcpcs_name
+Hex Color                        , Basic       , #142a0b<br/>#F0F0F0<br/>#0066FF                                                                                                                         ,                                                                                            , hex_color
+Hospital City                    , Health      ,                                                                                                                                                         , The city of a US-based hospital                                                            , hospital_city
+Hospital Name                    , Health      ,                                                                                                                                                         , The name of a US-based hospital                                                            , hospital_name
+Hospital NPI                     , Health      ,                                                                                                                                                         , The NPI of a US-based hospital                                                             , hospital_npi
+Hospital Postal Code             , Health      ,                                                                                                                                                         , The postal code of a US-based hospital                                                     , hospital_postal_code
+Hospital State                   , Health      ,                                                                                                                                                         , The state of a US-based hospital                                                           , hospital_state
+Hospital Street Address          , Health      ,                                                                                                                                                         , The street address of a US-based hospital                                                  , hospital_street_address
+IBAN                             , Commerce    , "<span style=""font-size:10px"">FR73 5960 2948 07N1 L9TC PVYX E17<br/>SE85 4302 3680 7231 4238 1624</br>HU12 2842 8140 5998 8717 3520 7242</span>"      ,                                                                                            , iban
+ICD10 Diagnosis Code             , Health      ,                                                                                                                                                         , ICD10 diagnosis code. Source: cms.gov                                                      , icd10_diagnosis_code
+ICD10 Dx Desc (Long)             , Health      ,                                                                                                                                                         , Long description of diagnosis from ICD10. Source: cms.gov                                  , icd10_dx_desc_long
+ICD10 Dx Desc (Short)            , Health      ,                                                                                                                                                         , Short description of diagnosis from ICD10. Source: cms.gov                                 , icd10_dx_desc_short
+ICD10 Proc Desc (Long)           , Health      ,                                                                                                                                                         , Long description of procedure from ICD10. Source: cms.gov                                  , icd10_proc_desc_long
+ICD10 Proc Desc (Short)          , Health      ,                                                                                                                                                         , Short description of procedure from ICD10. Source: cms.gov                                 , icd10_proc_desc_short
+ICD10 Procedure Code             , Health      ,                                                                                                                                                         , ICD10 procedure code. Source: cms.gov                                                      , icd10_procedure_code
+ICD9 Diagnosis Code              , Health      ,                                                                                                                                                         , ICD9 diagnosis code. Source: cms.gov                                                       , icd9_diagnosis_code
+ICD9 Dx Desc (Long)              , Health      ,                                                                                                                                                         , Long description of diagnosis from ICD9. Source: cms.gov                                   , icd9_dx_desc_long
+ICD9 Dx Desc (Short)             , Health      ,                                                                                                                                                         , Short description of diagnosis from ICD9. Source: cms.gov                                  , icd9_dx_desc_short
+ICD9 Proc Desc (Long)            , Health      ,                                                                                                                                                         , Long description of procedure from ICD9. Source: cms.gov                                   , icd9_proc_desc_long
+ICD9 Proc Desc (Short)           , Health      ,                                                                                                                                                         , Short description of procedure from ICD9. Source: cms.gov                                  , icd9_proc_desc_short
+ICD9 Procedure Code              , Health      ,                                                                                                                                                         , ICD9 procedure code. Source: cms.gov                                                       , icd9_procedure_code
+IP Address v4                    , IT          , 121.150.202.132                                                                                                                                         ,                                                                                            , ip_address_v4
+IP Address v4 CIDR               , IT          , 188.245.97.43/27                                                                                                                                        ,                                                                                            , ip_address_v4_cidr
+IP Address v6                    , IT          , 770:44c0:1c4:9996:2fd:6907:3045:9627                                                                                                                    ,                                                                                            , ip_address_v6
+IP Address v6 CIDR               , IT          , "<span style=""font-size:9.5px"">9ea4:2b0b:11ba:47a3:47a8:ede4:2ddd:c5f8/115</span>"                                                                    ,                                                                                            , ip_address_v6_cidr
+ISBN                             , Basic       , 574398570-7<br/>938492119-X<br/>758622794-2                                                                                                             ,                                                                                            , isbn
+Job Title                        , Personal    , Design Engineer<br/>General Manager<br/>Help Desk Technician                                                                                            ,                                                                                            , job_title
+JSON Array                       , Advanced    ,                                                                                                                                                         , Generates an array of objects in json format.                                              , json_array
+Language                         , Personal    , German<br/>English<br/>Spanish                                                                                                                          ,                                                                                            , language
+Language Code                    , Personal    , de<br/>en<br/>es                                                                                                                                        ,                                                                                            , language_code
+Last Name                        , Personal    , Smith<br/>Jones<br/>Miller                                                                                                                              ,                                                                                            , last_name
+Latitude                         , Location    , 48.52469361225269<br/>72.26886762838888<br/>-12.592370752117404                                                                                         ,                                                                                            , latitude
+LinkedIn Skill                   , Personal    , Algorithms<br/>Sports Nutrition<br/>Payroll                                                                                                             ,                                                                                            , linkedin_skill
+Longitude                        , Location    , -45.15259533671917<br/>115.70563293321999<br/>81.9426325226724                                                                                          ,                                                                                            , longitude
+MAC Address                      , IT          , 2C-D6-9B-77-E5-0B<br/>2C:D6:9B:77:E5:0B<br/>2c:d6:9b:77:e5:0b                                                                                           ,                                                                                            , mac_address
+MD5                              , IT          ,                                                                                                                                                         , Random hex encoded MD5 hash                                                                , md5
+Medicare Beneficiary ID          , Health      ,                                                                                                                                                         , MBI used in the US Medicare System                                                         , medicare_beneficiary_id
+MIME Type                        , IT          , text/plain<br/>image/png<br/>application/pdf                                                                                                            ,                                                                                            , mime_type
+Mobile Device Brand              , Products    , Sony<br/>Samsung<br/>Apple                                                                                                                              ,                                                                                            , mobile_device_brand
+Mobile Device Model              , Products    , Xperia Z3<br/>Galaxy S5<br/>iPhone 6                                                                                                                    ,                                                                                            , mobile_device_model
+Mobile Device OS                 , Products    , Android<br/>iOS                                                                                                                                         ,                                                                                            , mobile_device_os
+Mobile Device Release Date       , Products    , 2014<br/>2015<br/>2016                                                                                                                                  ,                                                                                            , mobile_device_release_date
+Money                            , Commerce    , "$3.00<br/>£12.94<br/>€127,54"                                                                                                                          ,                                                                                            , money
+MongoDB ObjectID                 , Basic       ,                                                                                                                                                         , Globally unique identifiers for MongoDB objects                                            , mongodb_objectid
+Movie Genres                     , Products    , Action | Suspense<br/>Thriller<br/>Comedy                                                                                                               ,                                                                                            , movie_genres
+Movie Title                      , Products    , Goodfellas<br/>Titanic<br/>Silverado                                                                                                                    ,                                                                                            , movie_title
+Nato Phonetic                    , Basic       , Whiskey<br/>Alpha<br/>Bravo                                                                                                                             ,                                                                                            , nato_phonetic
+Naughty String                   , Advanced    ,                                                                                                                                                         , Strings which have a high probability of causing issues when used as user-input data.      , naughty_string
+NHS Number                       , Health      ,                                                                                                                                                         , 10-digit NHS number with mod11 checksum                                                    , nhs_number
+Normal Distribution              , Basic       ,                                                                                                                                                         , Generates random numbers in a normal distribution using the Box-Muller algorithm           , normal_distribution
+Number                           , Basic       , 0.25<br/>5.2<br/>1000                                                                                                                                   ,                                                                                            , number
+Paragraphs                       , Basic       ,                                                                                                                                                         , Chosen randomly from lorem ipsum                                                           , paragraphs
+Password                         , Basic       ,                                                                                                                                                         , Generate passwords with customizable requirements                                          , password
+Password Hash                    , Basic       ,                                                                                                                                                         , The bcrypt hash of a randomly generated password                                           , password_hash
+Phone                            , Location    , 8-(598)633-6672                                                                                                                                         ,                                                                                            , phone
+Plant Common Name                , Nature      , Abietinella Moss<br/>Silver Fir<br/>Sedge                                                                                                               ,                                                                                            , plant_common_name
+Plant Family                     , Nature      , Thuidiaceae<br/>Pinaceae<br/>Cyperaceae                                                                                                                 ,                                                                                            , plant_family
+Plant Scientific Name            , Nature      , Abietinella abietina<br/>Abies alba<br/>Abildgaardia Vahl                                                                                               ,                                                                                            , plant_scientific_name
+Poisson Distribution             , Basic       ,                                                                                                                                                         , Generates numbers based on a Poisson distribution with a specific mean value.              , poisson_distribution
+Postal Code                      , Location    ,                                                                                                                                                         , Region-specific postal codes (not available for all locations).                            , postal_code
+Product Category                 , Commerce    ,                                                                                                                                                         , Toys<br/>Clothing - Outerwear<br/>Outdoor                                                  , product_category
+Product Description              , Commerce    ,                                                                                                                                                         , "e.g ""Savory lentil chips with BBQ flavor"""                                              , product_description
+Product (Grocery)                , Products    , Tomato - Green<br/>Spinach - Baby<br/>Avocado                                                                                                           ,                                                                                            , product_grocery
+Product Name                     , Commerce    , Classic Black Trousers<br/>Lemon Dill Salmon<br/>Travel Makeup Organizer                                                                                ,                                                                                            , product_name
+Product Price                    , Commerce    ,                                                                                                                                                         , The price of a product                                                                     , product_price
+Product Subcategory              , Commerce    ,                                                                                                                                                         , Plant-Based Beverages<br/>Gourmet Snacks<br/>Home Fragrance & Accessories                  , product_subcategory
+Race                             , Personal    , Filipino<br/>Venezuelan<br/>Asian                                                                                                                       ,                                                                                            , race
+Regular Expression               , Advanced    ,                                                                                                                                                         , Generate random data based on a regular expression                                         , regular_expression
+Row Number                       , Basic       , 1<br/>2<br/>3                                                                                                                                           ,                                                                                            , row_number
+Sentences                        , Basic       ,                                                                                                                                                         , Chosen randomly from lorem ipsum                                                           , sentences
+Sequence                         , Basic       ,                                                                                                                                                         , Generates a sequence of numbers with adjustable step and repeat options.                   , sequence
+SHA1                             , IT          ,                                                                                                                                                         , Random hex encoded SHA1 hash                                                               , sha1
+SHA256                           , IT          ,                                                                                                                                                         , Random hex encoded SHA256 hash                                                             , sha256
+Shirt Size                       , Personal    , S<br/>M<br/>L                                                                                                                                           ,                                                                                            , shirt_size
+Short Hex Color                  , Basic       , #14b<br/>#a32<br/>#926                                                                                                                                  ,                                                                                            , short_hex_color
+Slogan                           , Personal    ,                                                                                                                                                         , Randomly generated marketing slogans                                                       , slogan
+SSN                              , Personal    , 678-59-9455<br/>312-20-4597<br/>684-62-5799                                                                                                             ,                                                                                            , ssn
+State                            , Location    ,                                                                                                                                                         , "State/Province names, US and worldwide"                                                   , state
+State (abbrev)                   , Location    ,                                                                                                                                                         , "Two character state/province abbreviations, US and worldwide"                             , state_abbrev
+Stock Industry                   , Commerce    , Semiconductors<br/>Major Banks<br/>Oil & Gas Production                                                                                                 ,                                                                                            , stock_industry
+Stock Market                     , Commerce    , NYSE<br/>NASDAQ                                                                                                                                         ,                                                                                            , stock_market
+Stock Market Cap                 , Commerce    , $33.03B<br/>$54.29M<br/>$41.02M                                                                                                                         ,                                                                                            , stock_market_cap
+Stock Name                       , Commerce    , "Microsoft Corporation<br/>NetApp, Inc.<br/>The Bancorp, Inc."                                                                                          ,                                                                                            , stock_name
+Stock Sector                     , Commerce    , Technology<br/>Capital Goods<br/>Finance                                                                                                                ,                                                                                            , stock_sector
+Stock Symbol                     , Commerce    , MSFT<br/>NTAP<br/>TBBK                                                                                                                                  ,                                                                                            , stock_symbol
+Street Address                   , Location    , 6449 Pine View Drive                                                                                                                                    , "Street number, name, and suffix"                                                          , street_address
+Street Name                      , Location    , Pine View                                                                                                                                               , A street name (excluding the suffix)                                                       , street_name
+Street Number                    , Location    , 6449                                                                                                                                                    , A street number between 1 and 5 digits                                                     , street_number
+Street Suffix                    , Location    , Drive<br/>Terrace<br/>Street                                                                                                                            ,                                                                                            , street_suffix
+Suffix                           , Personal    , Jr<br/>Sr<br/>III                                                                                                                                       ,                                                                                            , suffix
+Template                         , Advanced    ,                                                                                                                                                         , Concatenate values from several columns into one                                           , template
+Tezos Account                    , Crypto      ,                                                                                                                                                         , A random Tezos account                                                                     , tezos_account
+Tezos Block                      , Crypto      ,                                                                                                                                                         , A random Tezos block                                                                       , tezos_block
+Tezos Contract                   , Crypto      ,                                                                                                                                                         , A random Tezos contract                                                                    , tezos_contract
+Tezos Operation                  , Crypto      ,                                                                                                                                                         , A random Tezos operation                                                                   , tezos_operation
+Tezos Signature                  , Crypto      ,                                                                                                                                                         , A random Tezos signature                                                                   , tezos_signature
+Time                             , Basic       , 3:30 PM<br/>15:30                                                                                                                                       ,                                                                                            , time
+Time Zone                        , Location    , America/Los_Angeles<br/>Europe/Budapest<br/>Pacific/Fiji                                                                                                ,                                                                                            , time_zone
+Title                            , Personal    , Mr<br/>Ms<br/>Dr                                                                                                                                        ,                                                                                            , title
+Top Level Domain                 , IT          , com<br/>edu<br/>org                                                                                                                                     ,                                                                                            , top_level_domain
+ULID                             , Basic       ,                                                                                                                                                         , Universally Unique Lexicographically-sortable Identifier                                   , ulid
+University                       , Personal    , The Johns Hopkins University<br/>Pepperdine University<br/>University of Texas                                                                          ,                                                                                            , university
+URL                              , IT          , https://facebook.com<br/>http://google.com/path?foo=bar<br/>/foo/bar                                                                                    ,                                                                                            , url
+User Agent                       , IT          ,                                                                                                                                                         , A user agent string from a popular web browser or bot                                      , user_agent
+Username                         , IT          , jdoe<br/>twilliams<br/>jfang                                                                                                                            ,                                                                                            , username
+Words                            , Basic       ,                                                                                                                                                         , Chosen randomly from lorem ipsum                                                           , words
