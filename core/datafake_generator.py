@@ -49,7 +49,7 @@ class DataFakeGenerator:
     def _initialize_providers(self):
         providers = {}
         for col in self.schema:
-            key = col["key_label"]
+            key = col["label"]
             group = col["group"]
             label = col["key_label"]
             options = col.get("options", {})
